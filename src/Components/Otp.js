@@ -24,7 +24,7 @@ export class Otp extends Component {
             document.querySelector('label').textContent +=   result.user.phoneNumber + "   Number verified";
             document.getElementById('recaptcha').style.display='none';
             
-            window.location='http://localhost:3000/select';
+            window.location='https://the-daily-nutrition.herokuapp.com//select';
             
         }).catch(function (error) {
             console.error( error);
