@@ -6,7 +6,7 @@ import h2 from './healthy-means2.png'
 import h3 from './healthy-means3.png'
 import Footer from './Footer'
 function redirect(){
-    window.location.assign("http://localhost:3000/signup");
+    window.location.assign("https://the-daily-nutrition.herokuapp.com//signup");
 }
 const Health = () => {
     return (
